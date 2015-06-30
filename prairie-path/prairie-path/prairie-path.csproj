@@ -221,6 +221,9 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="apple-touch-icon-114x114.png" />
+    <Content Include="apple-touch-icon-72x72.png" />
+    <Content Include="apple-touch-icon.png" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
     <Content Include="Content\bootstrap.css" />
@@ -229,6 +232,40 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="img\advotek-3.jpg" />
+    <Content Include="img\arlen-3.jpg" />
+    <Content Include="img\cares.png" />
+    <Content Include="img\done.png" />
+    <Content Include="img\First-care-connects-3.jpg" />
+    <Content Include="img\firstcare-dashboard%402x.jpg" />
+    <Content Include="img\firstcare-dashboard.jpg" />
+    <Content Include="img\glenayre-3.jpg" />
+    <Content Include="img\help.png" />
+    <Content Include="img\hhsweb-3.jpg" />
+    <Content Include="img\hixon-3.jpg" />
+    <Content Include="img\htwaterproofing-3.jpg" />
+    <Content Include="img\image1.jpg" />
+    <Content Include="img\image1_s.jpg" />
+    <Content Include="img\image3.jpg" />
+    <Content Include="img\image3_s.jpg" />
+    <Content Include="img\know.png" />
+    <Content Include="img\marjorie-3.jpg" />
+    <Content Include="img\mmcweb-3.jpg" />
+    <Content Include="img\natweb-3.jpg" />
+    <Content Include="img\paper-tree-dk.png" />
+    <Content Include="img\path.png" />
+    <Content Include="img\ppc-banner-s.jpg" />
+    <Content Include="img\ppc-banner.jpg" />
+    <Content Include="img\ppc-logo-s.jpg" />
+    <Content Include="img\ppc-logo.png" />
+    <Content Include="img\question.png" />
+    <Content Include="img\rcaweb-3.jpg" />
+    <Content Include="img\Stcharlweb-3.jpg" />
+    <Content Include="img\susan-3.jpg" />
+    <Content Include="img\toscatech.jpg" />
+    <Content Include="img\ttechscreenshot.jpg" />
+    <Content Include="img\ttico.png" />
+    <Content Include="img\vista-3.jpg" />
     <Content Include="index.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -310,6 +347,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
