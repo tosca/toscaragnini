@@ -229,6 +229,19 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\drag.png" />
+    <Content Include="css\kenburns.css" />
+    <Content Include="css\main-bg.css" />
+    <Content Include="css\main-responsive.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\navmenu.css" />
+    <Content Include="css\onepage-scroll.css" />
+    <Content Include="css\parallax.css" />
+    <Content Include="css\Site.css" />
+    <Content Include="css\venobox.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -245,6 +258,7 @@
     <Content Include="img\hixon-3.jpg" />
     <Content Include="img\htwaterproofing-3.jpg" />
     <Content Include="img\image1.jpg" />
+    <Content Include="img\image1_s - Copy.jpg" />
     <Content Include="img\image1_s.jpg" />
     <Content Include="img\image3.jpg" />
     <Content Include="img\image3_s.jpg" />
@@ -254,6 +268,7 @@
     <Content Include="img\natweb-3.jpg" />
     <Content Include="img\paper-tree-dk.png" />
     <Content Include="img\path.png" />
+    <Content Include="img\ppc-banner - Copy.jpg" />
     <Content Include="img\ppc-banner-s.jpg" />
     <Content Include="img\ppc-banner.jpg" />
     <Content Include="img\ppc-logo-s.jpg" />
@@ -289,12 +304,22 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\classie.js" />
+    <Content Include="Scripts\device.min.js" />
+    <Content Include="Scripts\equalheights-init.js" />
+    <Content Include="Scripts\equalheights.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery.easing.1.3.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\jquery.parallax-1.1.3.js" />
+    <Content Include="Scripts\jquery.touchSwipe.js" />
+    <Content Include="Scripts\kenburns.js" />
     <Content Include="Scripts\knockout-2.3.0.debug.js" />
     <Content Include="Scripts\knockout-2.3.0.js" />
     <Content Include="Scripts\knockout.validation.debug.js" />
     <Content Include="Scripts\knockout.validation.js" />
+    <Content Include="Scripts\main.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -347,7 +372,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
