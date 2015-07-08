@@ -4,10 +4,14 @@ body
 }
 body{
 	font-weight:200;
-    background-color:#fafafa;
-	/*overflow-x:hidden !important; */
+    color: #868686;
+    background-color: none;
+   /* 
+	overflow-x:hidden !important; */
 }
-
+header {
+background-color:#fafafa;
+}
 a, a:hover, a:focus{
 	text-decoration: none;
 }
@@ -57,7 +61,7 @@ h1,h2,h3,h4,h5,h6{
 /*Common Spacing and Padding*/
 
 .page-section{
-	padding: 100px 0;
+	padding: 70px 0;
 }
 .separator-section{
 	padding: 100px 0;
