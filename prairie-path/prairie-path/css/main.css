@@ -18,6 +18,9 @@ background-color:#fafafa;
 a, a:hover, a:focus{
 	text-decoration: none;
 }
+a {
+    color:#b7d009;
+}
 a:focus { 
     	outline: none; 
 }
@@ -57,11 +60,11 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-@media (min-width: 1024px) and (max-width: 5000px) {
+/*@media (min-width: 1024px) and (max-width: 5000px) {
 	.container{
 		max-width: 960px;
 	}
-}
+}*/
 /*Common Spacing and Padding*/
 
 .page-section{
@@ -306,6 +309,7 @@ h1,h2,h3,h4,h5,h6{
 /*Buttons*/
 .btn-eight{
 	border-radius: 0px;
+    border:solid 2px #ccc;
 	text-decoration: none;
 	padding: 10px 20px;
 	font-size: 12px;
@@ -356,15 +360,16 @@ h1,h2,h3,h4,h5,h6{
 	color: #000;
 }
 .btn-eight-dark:hover{
-	border:solid 2px #000;
+	border:solid 1px #000;
 	background: #000;
 	color: #fff;
 }
 .btn-eight-color{
+    border:solid 2px #ccc;
 	background: transparent;
 }
 .btn-eight-color:hover{
-	color: #fff;
+	color: #ccc;
 }
 
 .showcase-carousel{
@@ -604,13 +609,14 @@ h1,h2,h3,h4,h5,h6{
 	margin-bottom: 60px;
 }
 .showcase-single-content h5{
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 23px;
 	margin-top: 30px;
 	margin-bottom: 0;
-	border-top: solid 5px;
+	border-top: solid 3px;
 	padding-top: 30px;
+    color:#ccc;
 }
 .showcase-single-content h4{
 	font-weight: 200;
