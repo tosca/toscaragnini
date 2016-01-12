@@ -61,3 +61,5 @@ C:\Root\Projects\prairie-path\prairie-path\prairie-path\bin\System.Web.WebPages.
 C:\Root\Projects\prairie-path\prairie-path\prairie-path\obj\Debug\prairie-path.csprojResolveAssemblyReference.cache
 C:\Root\Projects\prairie-path\prairie-path\prairie-path\obj\Debug\prairie-path.dll
 C:\Root\Projects\prairie-path\prairie-path\prairie-path\obj\Debug\prairie-path.pdb
+C:\Root\Projects\prairie-path\prairie-path\prairie-path\bin\RestSharp.dll
+C:\Root\Projects\prairie-path\prairie-path\prairie-path\bin\RestSharp.xml
