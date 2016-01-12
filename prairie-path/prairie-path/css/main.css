@@ -12,7 +12,9 @@ body{
 }
 .mastwrap {
 
-    background-color:rgba(183, 208, 9, 0.43)
+    background-color:rgba(183, 208, 9, 0.6); /*green*/
+    background-color:#dfe54a;
+    background-color:rgba(223, 229, 74, 0.40);
 }
 .page-section {
     position: relative;
@@ -613,6 +615,10 @@ h1,h2,h3,h4,h5,h6{
         }
 
 /*showcaseS*/
+section {
+    
+    margin-bottom:90px;
+}
 .showcase-single-item-wrap{
 	padding: 50px;
 }
@@ -640,8 +646,14 @@ h1,h2,h3,h4,h5,h6{
 .showcase-single-content{
 	padding-top: 0px;
 	padding-bottom: 0px;
-	margin-top: 60px;
+	margin-top: 60px; 
 	margin-bottom: 60px;
+}
+.shadow {
+    box-shadow: 7px 7px 7px #aaa;
+    -moz-box-shadow: 7px 7px 7px #aaa;
+    -webkit-box-shadow: 7px 7px 7px #aaa;
+     -ms-box-shadow: 7px 7px 7px #aaa;
 }
 .showcase-single-content h5{
 	font-weight: 500;
