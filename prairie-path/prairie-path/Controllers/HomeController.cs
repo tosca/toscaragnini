@@ -8,7 +8,7 @@ using System.Web.Mvc;
 
 namespace prairie_path.Controllers
 {
-    [Authorize]
+   
     public class HomeController : Controller
     {
         public ActionResult Index()
