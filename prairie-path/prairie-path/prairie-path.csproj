@@ -235,6 +235,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="img\advotek.jpg" />
     <Content Include="img\bx_loader.gif" />
     <Content Include="img\fcfit-1.png" />
     <Content Include="img\fcfit-2.png" />
@@ -250,7 +251,6 @@
     <Content Include="img\next.png" />
     <Content Include="img\nickbike.jpg" />
     <Content Include="img\aboutus.jpg" />
-    <Content Include="img\advotek-3.jpg" />
     <Content Include="img\arlen-3.jpg" />
     <Content Include="img\cares.png" />
     <Content Include="img\done.jpg" />
@@ -277,7 +277,6 @@
     <Content Include="img\marjorie-3.jpg" />
     <Content Include="img\maxwell-3.jpg" />
     <Content Include="img\mmcweb-3.jpg" />
-    <Content Include="img\natweb-3.jpg" />
     <Content Include="img\paper-tree-dk.png" />
     <Content Include="img\path.png" />
     <Content Include="img\ppc-banner - Copy.jpg" />
