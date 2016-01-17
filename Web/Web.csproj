@@ -230,6 +230,7 @@
     <Content Include="css\Site.css" />
     <Content Include="css\venobox.css" />
     <Content Include="favicon.ico" />
+    <Content Include="favicon.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="img\advotek.jpg" />
@@ -291,7 +292,6 @@
     <Content Include="img\ttechscreenshot.jpg" />
     <Content Include="img\ttico.png" />
     <Content Include="img\vista-3.jpg" />
-    <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

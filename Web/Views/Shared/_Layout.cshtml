@@ -7,7 +7,7 @@
     <meta name="keywords" content="Tosca Ragnini - website design, web master, website producer">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="tosca ragnini">
-    <link rel="shortcut icon" href="~/img/path.png">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <link rel="apple-touch-icon" sizes="57x57" href="~/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="~/apple-touch-icon-72x72.png" />
     <link rel="apple-touch-icon" sizes="114x114" href="~/apple-touch-icon-114x114.png" />
@@ -93,6 +93,8 @@
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
         </footer>
     </div>
+    
+    @RenderSection("scripts", required: false)
     <script src="~/Scripts/jquery.min.js"></script>
     <script src="~/Scripts/jquery.easing.1.3.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
@@ -137,6 +139,6 @@
         });
 
     </script>
-    @RenderSection("scripts", required: false)
+  
 </body>
 </html>
