@@ -11,14 +11,13 @@ body{
 	/* overflow-x:hidden !important; */
 }
 .mastwrap {
-
     background-color:rgba(183, 208, 9, 0.6); 
     background-color:#dfe54a;
-   /* background-color:rgba(223, 229, 74, 0.40);green*/
+   background-color:rgba(223, 229, 74, 0.40);
 }
 .page-section {
     position: relative;
-    background: #fff;
+   /*background: #fff;*/
     overflow: hidden;
 }
 /* You could use :after - it doesn't really matter */
@@ -652,10 +651,10 @@ section {
 	margin-bottom: 60px;
 }
 .shadow {
-    box-shadow: 7px 7px 7px #aaa;
-    -moz-box-shadow: 7px 7px 7px #aaa;
-    -webkit-box-shadow: 7px 7px 7px #aaa;
-     -ms-box-shadow: 7px 7px 7px #aaa;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
+     -ms-box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
 }
 .showcase-single-content h5{
 	font-weight: 500;

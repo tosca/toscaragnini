@@ -26,7 +26,8 @@ $(function ($) {
      $('.fullwidth').css('height',vW);
      $('.fullheight').css('height',vH);
      $('.halfheight').css('height',vH/2);
-     $('.halfwidth').css('width',vW/2);
+     $('.halfwidth').css('width', vW / 2);
+     $('.halfheight').css('height', vH * .7);
      
 
     //Mobile Menu (multi level)
