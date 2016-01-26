@@ -273,6 +273,7 @@
     <Content Include="img\ppc-logo.png" />
     <Content Include="img\prev%402x.png" />
     <Content Include="img\prev.png" />
+    <Content Include="img\rcaweb-3.jpg" />
     <Content Include="img\susanMollet.png" />
     <Content Include="packages.config" />
     <Content Include="Scripts\bootstrap.js" />
