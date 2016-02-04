@@ -278,6 +278,7 @@
     <Content Include="packages.config" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jqBootstrapValidation.min.js" />
     <Content Include="Scripts\jquery.bxslider.min.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
