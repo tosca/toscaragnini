@@ -1,19 +1,15 @@
 body
 {
-    overflow-x: hidden; 
+    overflow-x: hidden !important; 
 }
 body{
 	font-weight:200;
     color: #868686;
     background-color:#fafafa;
-      background-color: transparent;
-   
-	/* overflow-x:hidden !important; */
+    background-color: transparent;
 }
 .mastwrap {
-    background-color:rgba(183, 208, 9, 0.6); 
     background-color:#dfe54a;
-   background-color:rgba(223, 229, 74, 0.40);
 }
 .page-section {
     position: relative;
@@ -32,7 +28,7 @@ body{
     z-index: 1;
     opacity: 0.7;
     filter: alpha(opacity=70); /* For IE8 and earlier */
-    background-image: url(../img/image3.jpg);
+  /*  background-image: url(../img/image3.jpg);*/
     background-repeat: no-repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
