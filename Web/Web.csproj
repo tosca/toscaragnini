@@ -241,8 +241,10 @@
     <Content Include="img\henning-1.png" />
     <Content Include="img\henning-2.png" />
     <Content Include="img\henning-3.png" />
+    <Content Include="img\industrial.jpg" />
     <Content Include="img\know.jpg" />
     <Content Include="img\market.png" />
+    <Content Include="img\mmc.jpg" />
     <Content Include="img\nat-1.png" />
     <Content Include="img\natalieMacellaio.png" />
     <Content Include="img\next%402x.png" />
