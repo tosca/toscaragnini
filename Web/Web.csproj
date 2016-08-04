@@ -279,6 +279,7 @@
     <Content Include="img\rcaweb-3.jpg" />
     <Content Include="img\resin8.jpg" />
     <Content Include="img\susanMollet.png" />
+    <Content Include="img\thisWay.png" />
     <Content Include="packages.config" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

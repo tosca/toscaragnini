@@ -58,9 +58,9 @@ a {
 a:focus { 
     	outline: none; 
 }
-.animated{
+/*.animated{
 	visibility: hidden;
-}
+}*/
 .ease{
 	-webkit-transition: all .4s ease-in-out;
 	   -moz-transition: all .4s ease-in-out;
@@ -102,7 +102,7 @@ h1,h2,h3,h4,h5,h6{
 /*Common Spacing and Padding*/
 
 .page-section{
-	padding: 50px 0;
+	padding: 0;
 }
 .separator-section{
 	padding: 100px 0;
@@ -614,7 +614,7 @@ h1,h2,h3,h4,h5,h6{
 /*showcaseS*/
 section {
     
-    margin-bottom:90px;
+    margin-bottom:60px;
 }
 .showcase-single-item-wrap{
 	padding: 50px;
@@ -830,8 +830,15 @@ fieldset h1 {
 .space-left{
     margin-left: 1%;
 }
-
-
+/*****arrow******/
+#path-arrow {   
+    background-image: url('../img/thisWay.png');
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat:no-repeat;
+    min-height: 50px;
+    z-index: 500;        
+}
 
 
 
