@@ -4,7 +4,7 @@ body
 }
 body{
 	font-weight:200;
-    color: #868686;
+    color: #888;
     background-color:#fafafa;
 
 }
@@ -661,7 +661,7 @@ section {
 	margin-bottom: 0;
 /*	border-top: solid 3px;
 	padding-top: 30px;*/
-    color:#ccc;
+    color:#888;
 }
 .showcase-single-content h4{
 	font-weight: 200;
