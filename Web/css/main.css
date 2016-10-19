@@ -3,10 +3,11 @@ body
     overflow-x: hidden !important; 
 }
 body{
+    font-family: 'Raleway', sans-serif;
 	font-weight:200;
     color: #888;
+    color: #777;
     background-color:#fafafa;
-
 }
 .mastwrap {
     background-color:#e0e0e0;
