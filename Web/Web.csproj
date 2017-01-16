@@ -250,14 +250,11 @@
     <Content Include="img\nickbike.jpg" />
     <Content Include="img\aboutus.jpg" />
     <Content Include="img\arlen-3.jpg" />
-    <Content Include="img\cares.png" />
     <Content Include="img\done.jpg" />
-    <Content Include="img\done.png" />
     <Content Include="img\fcc-chart.png" />
     <Content Include="img\fcc-dashbd.png" />
     <Content Include="img\featuredweb.jpg" />
     <Content Include="img\First-care-connects-3.jpg" />
-    <Content Include="img\firstcare-dashboard%402x.jpg" />
     <Content Include="img\firstcare-dashboard.jpg" />
     <Content Include="img\htwaterproofing-3.jpg" />
     <Content Include="img\image1.jpg" />
