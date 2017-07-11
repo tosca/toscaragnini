@@ -227,12 +227,14 @@
     <Content Include="css\navmenu.css" />
     <Content Include="css\onepage-scroll.css" />
     <Content Include="css\parallax.css" />
+    <Content Include="css\prettyPhoto.css" />
     <Content Include="css\venobox.css" />
     <Content Include="favicon.ico" />
     <Content Include="favicon.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="img\advotek.jpg" />
+    <Content Include="img\ajmillwork.jpg" />
     <Content Include="img\bx_loader.gif" />
     <Content Include="img\cares.jpg" />
     <Content Include="img\help.jpg" />
@@ -241,7 +243,6 @@
     <Content Include="img\henning-3.jpg" />
     <Content Include="img\industrial.jpg" />
     <Content Include="img\know.jpg" />
-    <Content Include="img\market.png" />
     <Content Include="img\mmc.jpg" />
     <Content Include="img\natalie-1.jpg" />
     <Content Include="img\natalie-2.jpg" />
@@ -279,6 +280,8 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jqBootstrapValidation.min.js" />
     <Content Include="Scripts\jquery.bxslider.min.js" />
+    <Content Include="Scripts\jquery.prettyPhoto.js" />
+    <Content Include="Scripts\price-filter.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
