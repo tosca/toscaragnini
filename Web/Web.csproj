@@ -21,6 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -198,7 +199,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="Controllers\MeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -243,6 +243,7 @@
     <Content Include="img\henning-3.jpg" />
     <Content Include="img\industrial.jpg" />
     <Content Include="img\know.jpg" />
+    <Content Include="img\lisaehrich.jpg" />
     <Content Include="img\mmc.jpg" />
     <Content Include="img\natalie-1.jpg" />
     <Content Include="img\natalie-2.jpg" />
@@ -250,20 +251,13 @@
     <Content Include="img\next.png" />
     <Content Include="img\nickbike.jpg" />
     <Content Include="img\aboutus.jpg" />
-    <Content Include="img\arlen-3.jpg" />
     <Content Include="img\done.jpg" />
-    <Content Include="img\fcc-chart.png" />
-    <Content Include="img\fcc-dashbd.png" />
     <Content Include="img\featuredweb.jpg" />
-    <Content Include="img\First-care-connects-3.jpg" />
-    <Content Include="img\firstcare-dashboard.jpg" />
-    <Content Include="img\htwaterproofing-3.jpg" />
     <Content Include="img\image1.jpg" />
     <Content Include="img\image1_s.jpg" />
     <Content Include="img\image3.jpg" />
     <Content Include="img\image3_s.jpg" />
     <Content Include="img\Ind-bat-product.png" />
-    <Content Include="img\industrialbat-3.png" />
     <Content Include="img\maxwell-3.jpg" />
     <Content Include="img\path.png" />
     <Content Include="img\ppc-banner-s.jpg" />
@@ -271,7 +265,7 @@
     <Content Include="img\ppc-logo-s.jpg" />
     <Content Include="img\ppc-logo.png" />
     <Content Include="img\prev.png" />
-    <Content Include="img\rcaweb-3.jpg" />
+    <Content Include="img\rbr.jpg" />
     <Content Include="img\resin8.jpg" />
     <Content Include="img\susanMollet.jpg" />
     <Content Include="img\thisWay.png" />
@@ -286,7 +280,6 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\_Home.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -308,11 +301,6 @@
     <Content Include="Scripts\kenburns.js" />
     <Content Include="Scripts\main.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Scripts\app\_run.js" />
-    <Content Include="Scripts\app\app.datamodel.js" />
-    <Content Include="Scripts\app\app.viewmodel.js" />
-    <Content Include="Scripts\app\common.js" />
-    <Content Include="Scripts\app\home.viewmodel.js" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Web.config">
       <SubType>Designer</SubType>

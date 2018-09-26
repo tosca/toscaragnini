@@ -1,23 +1,18 @@
-body
-{
+
+body{ 
+    background-color:#fafafa;
     overflow-x: hidden !important; 
-}
-body{
     font-family: 'Raleway', sans-serif;
 	font-weight:200;
-    color: #888;
-    color: #777;
-    background-color:#fafafa;
+    color: #777;  
 }
 .mastwrap {
     background-color:#e0e0e0;
 }
 .page-section {
     position: relative;
-   /*background: #fff;*/
     overflow: hidden;
 }
-
 .page-section:before {
     content: ' ';
     display: block;
@@ -29,17 +24,7 @@ body{
     z-index: 1;
     opacity: 0.7;
     filter: alpha(opacity=70); /* For IE8 and earlier */
-  /*
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-     background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;*/
-   
 }
-
 article {
     z-index:3;
     background-color: white;
@@ -480,7 +465,6 @@ h1,h2,h3,h4,h5,h6{
 	cursor: url("../images/drag.png") 40 40, crosshair;
     -webkit-transition: all .4s ease-in-out;
        -moz-transition: all .4s ease-in-out;
-        -ms-transition: all .4s ease-in-out;
          -o-transition: all .4s ease-in-out;
             transition: all .4s ease-in-out;
 }
@@ -493,8 +477,7 @@ h1,h2,h3,h4,h5,h6{
 	opacity: 0;
 	background-color: rgba(0,0,0,0.8);
 	-webkit-transition: all 1s ease-in-out;
-	   -moz-transition: all 1s ease-in-out;
-		-ms-transition: all 1s ease-in-out;
+	   -moz-transition: all 1s ease-in-out;	
 		 -o-transition: all 1s ease-in-out;
 			transition: all 1s ease-in-out;
 }
@@ -575,7 +558,6 @@ h1,h2,h3,h4,h5,h6{
     display: inline-block;
     -webkit-transition: all .8s ease-in-out;
        -moz-transition: all .8s ease-in-out;
-        -ms-transition: all .8s ease-in-out;
          -o-transition: all .8s ease-in-out;
             transition: all .8s ease-in-out;
 }
@@ -713,14 +695,14 @@ section {
 .showcase-single-content{
 	padding-top: 0px;
 	padding-bottom: 0px;
-	margin-top: 60px; 
-	margin-bottom: 60px;
+	margin-top: 30px; 
+	margin-bottom: 30px;
 }
 .shadow {
     box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
-     -ms-box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
+ 
 }
 .showcase-single-content h5{
 	font-weight: 500;
