@@ -233,7 +233,6 @@
     <Content Include="favicon.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="img\advotek.jpg" />
     <Content Include="img\ajmillwork.jpg" />
     <Content Include="img\bx_loader.gif" />
     <Content Include="img\cares.jpg" />
@@ -241,13 +240,11 @@
     <Content Include="img\henning-1.jpg" />
     <Content Include="img\henning-2.jpg" />
     <Content Include="img\henning-3.jpg" />
-    <Content Include="img\industrial.jpg" />
     <Content Include="img\know.jpg" />
     <Content Include="img\lisaehrich.jpg" />
+    <Content Include="img\marjorie.jpg" />
     <Content Include="img\mmc.jpg" />
     <Content Include="img\natalie-1.jpg" />
-    <Content Include="img\natalie-2.jpg" />
-    <Content Include="img\natalieMacellaio.png" />
     <Content Include="img\next.png" />
     <Content Include="img\nickbike.jpg" />
     <Content Include="img\aboutus.jpg" />
@@ -257,7 +254,6 @@
     <Content Include="img\image1_s.jpg" />
     <Content Include="img\image3.jpg" />
     <Content Include="img\image3_s.jpg" />
-    <Content Include="img\Ind-bat-product.png" />
     <Content Include="img\maxwell-3.jpg" />
     <Content Include="img\path.png" />
     <Content Include="img\ppc-banner-s.jpg" />
