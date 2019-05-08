@@ -51,14 +51,12 @@ a:focus {
 .ease{
 	-webkit-transition: all .4s ease-in-out;
 	   -moz-transition: all .4s ease-in-out;
-		-ms-transition: all .4s ease-in-out;
 		 -o-transition: all .4s ease-in-out;
 			transition: all .4s ease-in-out;
 }
 .ease:hover{
 	-webkit-transition: all .4s ease-in-out;
 	   -moz-transition: all .4s ease-in-out;
-		-ms-transition: all .4s ease-in-out;
 		 -o-transition: all .4s ease-in-out;
 			transition: all .4s ease-in-out;
 }
@@ -192,7 +190,6 @@ h1,h2,h3,h4,h5,h6{
 	background-size: cover;
 	-webkit-transition: all 1.2s ease-in-out;
 	   -moz-transition: all 1.2s ease-in-out;
-		-ms-transition: all 1.2s ease-in-out;
 		 -o-transition: all 1.2s ease-in-out;
 			transition: all 1.2s ease-in-out;
 }
@@ -200,7 +197,6 @@ h1,h2,h3,h4,h5,h6{
 	left: 0px;
 	-webkit-transition: all 0.5s ease-in-out;
 	   -moz-transition: all 0.5s ease-in-out;
-		-ms-transition: all 0.5s ease-in-out;
 		 -o-transition: all 0.5s ease-in-out;
 			transition: all 0.5s ease-in-out;
 }
@@ -317,15 +313,6 @@ h1,h2,h3,h4,h5,h6{
     display: none;
 }
 
-.credit-text{
-	margin-top: 20px;
-	margin-right: 100px;
-	margin-left: 80px;
-}
-.credit-text p{
-	font-size: 12px;
-	line-height: 19px;
-}
 .sub-heading{
 	font-size: 18px;
 	line-height: 25px;
@@ -410,7 +397,6 @@ h1,h2,h3,h4,h5,h6{
 	opacity: 1;
 	-webkit-transition: all 1s ease-in-out;
 	   -moz-transition: all 1s ease-in-out;
-		-ms-transition: all 1s ease-in-out;
 		 -o-transition: all 1s ease-in-out;
 			transition: all 1s ease-in-out;
 }
@@ -418,7 +404,6 @@ h1,h2,h3,h4,h5,h6{
 	cursor: url("../images/view.png") 40 40, crosshair;
     -webkit-transition: all .4s ease-in-out;
        -moz-transition: all .4s ease-in-out;
-        -ms-transition: all .4s ease-in-out;
          -o-transition: all .4s ease-in-out;
             transition: all .4s ease-in-out;
 }
@@ -480,7 +465,6 @@ h1,h2,h3,h4,h5,h6{
     opacity: 0.4;
     -webkit-transition: all .8s ease-in-out;
        -moz-transition: all .8s ease-in-out;
-        -ms-transition: all .8s ease-in-out;
          -o-transition: all .8s ease-in-out;
             transition: all .8s ease-in-out;
 }
@@ -793,6 +777,23 @@ fieldset h1 {
     background-repeat:no-repeat;
     min-height: 50px;
     z-index: 500;        
+}
+
+/**********frame******/
+
+.frame5 {
+    font-size: 16px;
+    padding: 25px 30px;
+    background-color: #fff;
+    border: 16px ridge #777;
+    border: 16px ridge #777;
+    border-color: #bfbfbf;
+    position: relative;
+    transition: 0.5s;
+    display: block;
+    height: auto;
+    padding-bottom: 20px;
+    margin: 20px;
 }
 
 
