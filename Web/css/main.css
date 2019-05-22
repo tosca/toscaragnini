@@ -555,8 +555,7 @@ h1,h2,h3,h4,h5,h6{
 
 /*showcaseS*/
 section {
-    
-    margin-bottom:60px;
+   margin-bottom:0px;
 }
 .showcase-single-item-wrap{
 	padding: 50px;
@@ -783,18 +782,25 @@ fieldset h1 {
 
 .frame5 {
     font-size: 16px;
-    padding: 25px 30px;
+    padding: 0px;
     background-color: #fff;
-    border: 16px ridge #777;
     border: 16px ridge #777;
     border-color: #bfbfbf;
     position: relative;
     transition: 0.5s;
     display: block;
     height: auto;
-    padding-bottom: 20px;
-    margin: 20px;
+    margin: 20px 70px 20px 70px;
 }
+/******   paypal ***
+.paypal-button{
+    padding: 20px;
+}
+
+.paypal-button-shape{
+    border-radius: 13px;
+}
+*/
 
 
 
