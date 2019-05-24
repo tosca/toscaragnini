@@ -792,15 +792,21 @@ fieldset h1 {
     height: auto;
     margin: 20px 70px 20px 70px;
 }
-/******   paypal ***
-.paypal-button{
-    padding: 20px;
+/******   paypal ***/
+
+#paypal-button-container{
+    margin: 20px 90px;
+    max-width: 200px;
 }
 
-.paypal-button-shape{
-    border-radius: 13px;
+.paypal-button-container {
+    margin: 0px 60px;
+    max-width: 120px;
 }
-*/
+td, th {
+    border: 1px solid #ccc;
+    padding: 0 8px;
+}
 
 
 
