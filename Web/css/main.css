@@ -204,7 +204,6 @@ h1,h2,h3,h4,h5,h6{
 	top: -150px;
 	-webkit-transition: all 1.5s ease-in-out;
 	   -moz-transition: all 1.5s ease-in-out;
-		-ms-transition: all 1.5s ease-in-out;
 		 -o-transition: all 1.5s ease-in-out;
 			transition: all 1.5s ease-in-out;
 }
@@ -293,14 +292,12 @@ h1,h2,h3,h4,h5,h6{
      text-decoration: none;
 	-webkit-transition: all 0.5s ease-in-out;
 	   -moz-transition: all 0.5s ease-in-out;
-		-ms-transition: all 0.5s ease-in-out;
 		 -o-transition: all 0.5s ease-in-out;
 			transition: all 0.5s ease-in-out;
 }
 .sub-nav a:hover{
 	-webkit-transition: all 0.5s ease-in-out;
 	   -moz-transition: all 0.5s ease-in-out;
-		-ms-transition: all 0.5s ease-in-out;
 		 -o-transition: all 0.5s ease-in-out;
 			transition: all 0.5s ease-in-out;
 }
@@ -515,7 +512,6 @@ h1,h2,h3,h4,h5,h6{
             opacity:1;
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
-                -ms-transition: all .4s ease-in-out;
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
         }
@@ -523,7 +519,6 @@ h1,h2,h3,h4,h5,h6{
             cursor: url("../images/plus.png") 40 40, crosshair;
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
-                -ms-transition: all .4s ease-in-out;
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
         }
@@ -531,7 +526,6 @@ h1,h2,h3,h4,h5,h6{
             cursor: url("../images/zoom.png") 40 40, crosshair;
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
-                -ms-transition: all .4s ease-in-out;
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
         }
@@ -617,7 +611,6 @@ section {
 .showcase-thumb-strip a{
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
-                -ms-transition: all .4s ease-in-out;
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
 }
@@ -626,7 +619,6 @@ section {
             cursor: url("../images/zoom.png") 40 40, crosshair;
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
-                -ms-transition: all .4s ease-in-out;
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
 }
@@ -675,15 +667,15 @@ section {
 input {
     background: transparent !important;
     border: none !important;
-    border-bottom: 1px solid !important;
+  /*  border-bottom: 1px solid !important;*/
     border-radius: 0px !important;
     box-shadow: none !important;
     color: #444 !important;
     font-size: 14px !important;
     font-weight: 300 !important;
-    line-height: 25px !important;
+ /*   line-height: 25px !important;*/
     height: 50px !important;
-    margin-bottom: 10px !important;
+  /*  margin-bottom: 10px !important;*/
     padding: 10px !important;
     width: 100%;
     -webkit-transition: all .8s linear;
@@ -784,30 +776,37 @@ fieldset h1 {
     font-size: 16px;
     padding: 0px;
     background-color: #fff;
-    border: 16px ridge #777;
+    border: 9px ridge #777;
     border-color: #bfbfbf;
     position: relative;
     transition: 0.5s;
     display: block;
     height: auto;
-    margin: 20px 70px 20px 70px;
 }
 /******   paypal ***/
 
 #paypal-button-container{
-    margin: 20px 90px;
+    margin: 20px;
+    max-width: 150px;
+}
+.pay-op {
+
+}
+
+.pay-op img {
     max-width: 200px;
 }
-
-.paypal-button-container {
-    margin: 0px 60px;
-    max-width: 120px;
-}
-td, th {
+td, th, tr {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     border: 1px solid #ccc;
-    padding: 0 8px;
+    padding: 0 4px;
 }
-
+.green{
+    color:#a6bc0a;
+}
+.copy-rt{
+    font-size: 12px;
+}
 
 
 
