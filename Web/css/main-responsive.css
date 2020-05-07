@@ -210,7 +210,7 @@
 		padding: 80px 20px;
 	}
 	.mastwrap{
-		padding-top: 48px;
+		padding-top: 0;
 	}
 	.sticky-panel{
 		display: none;
@@ -309,7 +309,7 @@
 		padding: 80px 20px;
 	}
 	.mastwrap{
-		padding-top: 48px;
+		padding-top: 0;
 	}
 	.sticky-panel{
 		display: none;
@@ -575,7 +575,7 @@
 	}
 }
 
-/*Medium Smart Phones v2*/
+/*Medium Smart Phones v2
 @media screen and (max-width: 640px) {
 	
 	.container{
@@ -598,9 +598,7 @@
 	.mob-add-bottom{
 		margin-bottom:30px;
 	}
-/*	.text-left, .text-right, p, h1, h2, h3, h4, h5{
-		text-align: center;
-	}*/
+
 	.btn{
 		width: 100%;
 	}
@@ -677,9 +675,9 @@
 		margin-right: 10px;
 	}
 }
-	
+	*/
 
-/*Google Nexus and Other Large Smart Phones v1*/
+/*Google Nexus and Other Large Smart Phones v1
 @media screen and (max-width: 600px)  {
 	
 	.container{
@@ -704,7 +702,7 @@
 	}
 /*	.text-left, .text-right, p, h1, h2, h3, h4, h5{
 		text-align: center;
-	}*/
+	}
 	.btn{
 		width: 100%;
 	}
@@ -781,7 +779,7 @@
 		margin-right: 10px;
 	}
 }
-	
+	*/
 
 /*iPhone Landscape Mode and Mediium Smart Phones*/
 @media screen and (max-width: 480px) {
@@ -1055,9 +1053,9 @@
 		border-left: none;
 	}
 	#slide-title {
-	    font-size: 12px;
+	    font-size: 16px;
 	    letter-spacing: 2px;
-	    line-height: 19px;
+	    line-height: 23px;
 	}
 	.intro-02-wrap{
 		margin: 0;
@@ -1094,7 +1092,7 @@
 	}
 }
 
-/*Other Major Small Smart Phones*/
+/*Other Major Small Smart Phones
 @media screen and (max-width: 360px) {
 	
 	.container{
@@ -1116,10 +1114,7 @@
 	}
 	.mob-add-bottom{
 		margin-bottom:30px;
-	}
-	/*.text-left, .text-right, p, h1, h2, h3, h4, h5{
-		text-align: center;
-	}*/
+	}	
 	.btn{
 		width: 100%;
 	}
@@ -1191,114 +1186,6 @@
 	.works-item{
 		width: 100% !important;
 	}
-	.social-wrap{
-		margin-left: 10px;
-		margin-right: 10px;
-	}
+
 }
-
-/*iPhone (5S, 5, 4S and 4) Portrait Mode and Very Small Mobile Phones*/
-@media screen and (max-width: 320px) {
-	
-	.container{
-	    max-width: 280px;
-	    padding-left: 20px;
-	    padding-right: 20px;
-	}
-	.add-top-half{
-		padding-top: 35px;
-	}
-	.add-bottom-half{
-		padding-bottom: 35px;
-	}
-	.mob-center{
-		text-align: center;
-	}
-	.mob-add-top{
-		margin-top: 30px;
-	}
-	.mob-add-bottom{
-		margin-bottom:30px;
-	}
-	/*.text-left, .text-right, p, h1, h2, h3, h4, h5{
-		text-align: center;
-	}*/
-	.btn{
-		width: 100%;
-	}
-	.page-section, .separator-section{
-		padding: 40px 0;
-	}
-	img.img-responsive{
-		display: inline-block;
-	}
-	.common-pad{
-		padding: 80px 20px;
-	}
-	.mastwrap{
-		padding-top: 0px;
-	}
-	.sticky-panel{
-		display: none;
-	}
-	.showcase-panel h1 > span {
-	    font-size: 14px;
-	    letter-spacing: 2px;
-	    line-height: 21px;
-	}
-	.explore-link a {
-	    font-size: 12px;
-	    letter-spacing: normal;
-	    line-height: 19px;
-	}
-	.intro-04 .promo-caps, .intro-07 .promo-caps, .intro-06 .promo-caps {
-	    font-size: 14px;
-	    letter-spacing: 2px;
-	    line-height: 21px;
-	    text-align: center;
-	}
-	.intro-04 .promo-caps > span{
-		border-left: none;
-	}
-	#slide-title {
-	    font-size: 12px;
-	    letter-spacing: 2px;
-	    line-height: 19px;
-	}
-	.intro-02-wrap{
-		margin: 0;
-	}
-	.intro-02-wrap .works-item {
-	    margin: 0.2% !important;
-	    padding: 0 !important;
-	    width: 49.6% !important;
-	}
-	.works-item-inner h3, .works-item-inner p > span{
-	    font-size: 10px;
-	    letter-spacing: normal;
-	    line-height: 17px;
-	}
-	.sub-heading, .intro-03 .promo-caps, .about .promo-caps, .intro-05 .promo-caps, .news-item h2, .showcase-single-item p > span,
-	.intro-05 h1, .showcase-single-item h2, .news-item h1, .news-item p > span, .contact .promo-caps{
-	    font-size: 14px;
-	    line-height: 21px;
-	}
-     .showcase-single-item-wrap{
-	padding: 10px 20px;
-    }
-	.showcases-overlay h1 > span {
-	    font-size: 10px;
-	    letter-spacing: 2px;
-	    line-height: 17px;
-	}
-	.works-item{
-		width: 100% !important;
-	}
-	.social-wrap{
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-}
-
-
-
+*/
