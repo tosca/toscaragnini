@@ -231,6 +231,9 @@
     <Content Include="favicon.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="img\bike-path.jpg" />
+    <Content Include="img\lisaehrich.png" />
+    <Content Include="img\ppw-baner.png" />
     <Content Include="paypal-dev-1.html" />
     <Content Include="img\ajmillwork.jpg" />
     <Content Include="img\bx_loader.gif" />
@@ -240,7 +243,6 @@
     <Content Include="img\henning-2.jpg" />
     <Content Include="img\henning-3.jpg" />
     <Content Include="img\know.jpg" />
-    <Content Include="img\lisaehrich.jpg" />
     <Content Include="img\marjorie.jpg" />
     <Content Include="img\mmc.jpg" />
     <Content Include="img\natalie-1.jpg" />
@@ -250,14 +252,9 @@
     <Content Include="img\done.jpg" />
     <Content Include="img\featuredweb.jpg" />
     <Content Include="img\image1.jpg" />
-    <Content Include="img\image1_s.jpg" />
     <Content Include="img\image3.jpg" />
-    <Content Include="img\image3_s.jpg" />
     <Content Include="img\maxwell-3.jpg" />
     <Content Include="img\path.png" />
-    <Content Include="img\ppc-banner-s.jpg" />
-    <Content Include="img\ppc-banner.jpg" />
-    <Content Include="img\ppc-logo-s.jpg" />
     <Content Include="img\ppc-logo.png" />
     <Content Include="img\prev.png" />
     <Content Include="img\rbr.jpg" />

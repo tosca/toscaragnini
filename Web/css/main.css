@@ -18,6 +18,10 @@ img, embed, object { max-width: 100%;}
 	background-position-y: top;
 	background-repeat: no-repeat;
 }
+img {
+margin-left: auto;
+margin-right: auto;
+}
 header {
 	background-color: #fafafa;                                         
 }
