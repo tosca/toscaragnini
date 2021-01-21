@@ -33,7 +33,6 @@ img {
 }
 .home-banner img, .logo-bg img { 
 	align-items: center;
-	width: 70%;
 }
 .home-container {
 	background-image: url('../img/bike-path2021.png');
