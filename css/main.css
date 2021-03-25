@@ -2,14 +2,14 @@
 box-sizing: border-box;
  }
 
-body, html { 
-    width: 100%;
+html, body { 
+    width: auto!important;
+	overflow-x: hidden!important;
     height: 100%;
     margin: 0;
     padding:0;
 }                                                        
 body{ 
-    background-color:#fafafa;
 	background-color:#f9f9f8;
 	font-size: 1rem;
     font-family: 'Raleway', sans-serif;
@@ -19,6 +19,8 @@ body{
 .container {
 	padding-left: 0;
 	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 .bg {
 	background-position-x: center;
@@ -26,6 +28,7 @@ body{
 	background-repeat: no-repeat;
 }
 img {
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -34,7 +37,7 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
-.img-resppond-half{ 
+.img-respond-half{ 
 	margin-left: 3rem;
 	margin-right: 3rem;
 
@@ -44,19 +47,25 @@ img {
 	height: auto;
 	display: flex;
 	justify-content: center;
+	width: fit-content;
 	
 }
 .home-banner img, .logo-bg img { 
 	align-items: center;
+
 }
 .home-container {
 	background-image: url('../img/bike-path2021.png');
 	background-attachment: fixed;
 	background-position-x: center;
 	background-repeat: no-repeat;
-	 background-size: contain;
-	 min-height: 300px;
-	 width: 100%;	 
+	background-size: contain;
+	min-height: 300px;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;	 
 }
 .home-text{ 
 	text-align: center;
