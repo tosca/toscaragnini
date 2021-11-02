@@ -16,12 +16,7 @@ body{
     color: rgb(97, 96, 96);
 	color: rgb(78, 77, 77);  
 }
-.container {
-	padding-left: 0;
-	padding-right: 0;
-	margin-left: 0;
-	margin-right: 0;
-}
+
 .bg {
 	background-position-x: center;
 	background-position-y: top;
@@ -60,12 +55,7 @@ img {
 	background-position-x: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	min-height: 300px;
-	padding-left: 0;
-	padding-right: 0;
-	margin-left: 0;
-	margin-right: 0;
-	width: 100%;	 
+	min-height: 300px; 
 }
 .home-text{ 
 	text-align: center;
