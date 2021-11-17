@@ -75,13 +75,12 @@ img {
 	background-position-x: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	min-height: 35rem; 
+	min-height: 29rem; 
 }
 .home-text{ 
 	text-align: center;
 	width: 100%;
-	margin-top: -110px;
-	margin-bottom: 40px;	
+	margin-top: 0px;	
 }
 .about-me img{ 
 	padding: 10px;
