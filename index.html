@@ -17,46 +17,6 @@
   <!-- <script src="http://www.paypalobjects.com/api/checkout.js"></script>-->
 </head>
 <body> 
-<!--<script>
-    paypal.Button.render({
-        // Configure environment
-        env: 'sandbox',
-        client: {
-            sandbox: 'demo_sandbox_client_id',
-            production: 'demo_production_client_id'
-        },
-        // Customize button (optional)
-        locale: 'en_US',
-        style: {
-            size: 'small',
-            color: 'gold',
-            shape: 'pill',
-            branding: 'true'
-        },
-
-        // Enable Pay Now checkout flow (optional)
-        commit: true,
-
-        // Set up a payment
-        payment: function (data, actions) {
-            return actions.payment.create({
-                transactions: [{
-                    amount: {
-                        total: '0.01',
-                        currency: 'USD'
-                    }
-                }]
-            });
-        },
-        // Execute the payment
-        onAuthorize: function (data, actions) {
-            return actions.payment.execute().then(function () {
-                // Show a confirmation message to the buyer
-                window.alert('Thank you for your purchase!');
-            });
-        }
-    }, '#paypal-button');
-</script> --> 
 <div class="container">
     <div class="row">  
         <div class="col-sm-12 home-banner mt-2">
@@ -335,23 +295,23 @@
                 </div>
             </div>
         </div>
-    </section>    
+    </section>   
 </div>       
 <footer>
     <div class="container">
         <div class="row">
             <div class="text-center logo-bg">
-                <img alt="about Tosca Ragnini" src="img/aboutus.jpg" />
+                <img alt="about Tosca Ragnini" src="img/aboutus.jpg" alt="Image" class="fadeImage" />
             </div>
         </div>
         <div class="row">
             <div class="col-sm-6 about-me">
-                <img alt="about Tosca Ragnini" src="img/done.jpg" class="p-3" />
-                <img alt="about Tosca Ragnini" src="img/know.jpg" class="p-3" />
+                <img alt="about Tosca Ragnini" src="img/done.jpg" alt="Image" class="p-3 fadeImage" />
+                <img alt="about Tosca Ragnini" src="img/know.jpg" alt="Image" class="p-3 fadeImage" />
             </div>
             <div class="col-sm-6 about-me">
-                <img alt="about Tosca Ragnini" src="img/cares.jpg" class="p-3" />
-                <img alt="about Tosca Ragnini" src="img/help.jpg" class="p-3" />
+                <img alt="about Tosca Ragnini" src="img/cares.jpg" alt="Image" class="p-3 fadeImage" />
+                <img alt="about Tosca Ragnini" src="img/help.jpg" alt="Image" class="p-3 fadeImage" />
             </div>
         </div>
                         
@@ -481,18 +441,4 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<!--<script src="Scripts/jquery.bxslider.min.js" type="text/javascript"></script>
-    <script>     
-            $('.bxslider').bxSlider({
-                preloadImages: 'visible',
-                touchEnabled: true,
-                responsive: true,
-                pager: false,
-                controls: true
-            });      
-    </script> 
-
-    <script src="https://www.paypal.com/sdk/js?client-id=AQM4R88ilhfeYmum053KOmdEmw5_JZp6BTeTEBkWDu-VuUgDlzY6taRaAYb7gYK-Fys25lh5QHrEdZdA&commit=true&components=buttons"></script>
-    <script>paypal.Buttons().render('#paypal-button-container');</script>-->
-</body>
 </html>
