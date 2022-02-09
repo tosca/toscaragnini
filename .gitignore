@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #################
 ## Eclipse
 #################
@@ -219,11 +218,3 @@ pip-log.txt
 src/packages/
 prairie-path/prairie-path/bin/prairie-path.dll.config
 *.suo
-=======
-*.pdb
-*.dll
-*.dll
-prairie-path/prairie-path/obj/Debug/prairie-path.dll
-*.pdb
-*.dll
->>>>>>> origin/master
