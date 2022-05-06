@@ -20,13 +20,25 @@ body{
 	background-position-y: top;
 	background-repeat: no-repeat;
 }
-.pt-50{
+.pt-50 {
 	padding-top: 50px;
+}
+.ptb-30 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.p-lr {
+	padding: 30px 60px;
+}
+.p-lr-auto {
+	padding-left: auto;
+	padding-right: auto;
 }
 img {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	display: block;
 }
 .img-responsive { 
 	width: 100%;
@@ -36,66 +48,40 @@ img {
 .img-respond-half{ 
 	margin-left: 3rem;
 	margin-right: 3rem;
-
 }
-.fadeImage {
-    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 4s; /* Firefox < 16 */
-        -ms-animation: fadein 4s; /* Internet Explorer */
-         -o-animation: fadein 4s; /* Opera < 12.1 */
+/*.fadeImage {
+    -webkit-animation: fadein 4s;
+       -moz-animation: fadein 4s;
             animation: fadein 4s;
     display: block;
     margin: 25px auto;
 }
-
 @keyframes fadeImage {
     0% { opacity: 0; }
   100%  { opacity: 1; }
 }
-
 .fadeImage {
 	visibility: visible;
 	animation: fadeImage 5s;
-}
-
-
+}*/
 .home-banner img, .feature-banner img { 
-	max-width: 100%;
+	max-width: 70%;
 	height: auto;
 	display: flex;
-	justify-content: center;
-	width: fit-content;
-	
-}
-.home-banner img, .logo-bg img { 
-	align-items: center;
-
-}
-.home-container {
-	background-image: url('../img/bike-path2021.png');
-	background-attachment: fixed;
-	background-position-x: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	min-height: 29rem; 
-}
-.home-text{ 
-	text-align: center;
-	width: 100%;
-	margin-top: 0px;	
+	justify-content: center;	
 }
 .about-me img{ 
 	padding: 10px;
 	width: 100%;
 }
 .contact-bg {
-    background-image:url('../img/path.png');
+    background-image:url('img/path.png');
 }
 a, a:hover, a:focus{
 	text-decoration: none;
 }
 a {
-    color:#a6bc0a;
+    color:#2386ed;
 }
 a:focus { 
     outline: none; 
@@ -145,14 +131,6 @@ a:focus {
   	-ms-transform: translateY(-50%);
   	transform: translateY(-50%);
 }
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    transform: translate(0, 0);
-}
 /*showcase*/
 .showcase-single-content{
 	padding-top: 0px;
@@ -162,7 +140,7 @@ a:focus {
 	background-color: white;
 }
 .showcase-single-item-wrap{
-	padding: 24px;
+	padding: 20px;
 }
 .showcase-single-item-inner img{ 
 	width: 100%;
@@ -204,26 +182,32 @@ a:focus {
     display: block;
     height: auto;
 }
-/******   paypal ***/
-#paypal-button-container{
-    margin: 20px;
-    max-width: 150px;
-}
-.pay-op img {
-    max-width: 250px;
-}
-td, th, tr {
+/*td, th, tr {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     border: 1px solid #ccc;
     padding: 0 4px;
 }
 .green{
     color:#a6bc0a;
-}
-.copy-rt{
-    font-size: 13px;
-}
+}*/
 
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { }
 
 
 
