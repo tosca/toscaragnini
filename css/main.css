@@ -1,7 +1,6 @@
  * { 
 box-sizing: border-box;
  }
-
 html, body { 
     width: auto!important;
 	overflow-x: hidden!important;
@@ -14,11 +13,7 @@ body{
     font-family: 'Raleway', sans-serif;
 	color: rgb(78, 77, 77);  
 }
-.bg {
-	background-position-x: center;
-	background-position-y: top;
-	background-repeat: no-repeat;
-}
+
 .pt-50 {
 	padding-top: 50px;
 }
@@ -44,25 +39,6 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
-.img-respond-half{ 
-	margin-left: 3rem;
-	margin-right: 3rem;
-}
-.fadeImage {
-    -webkit-animation: fadein 4s;
-       -moz-animation: fadein 4s;
-            animation: fadein 4s;
-    display: block;
-    margin: 25px auto;
-}
-@keyframes fadeImage {
-    0% { opacity: 0; }
-  100%  { opacity: 1; }
-}
-.fadeImage {
-	visibility: visible;
-	animation: fadeImage 5s;
-}
 .home-banner img, .feature-banner img { 
 	padding: 40px 0 0 0;	
 }
@@ -70,8 +46,15 @@ img {
 	padding: 10px;
 	width: 100%;
 }
-.contact-bg {
-    background-image:url('img/path.png');
+.prairiePath-bg {
+	background-image: url("img/image3.jpg");
+	background-position: center top ;
+	background-repeat: no-repeat;
+	background-size: 300px 200px;
+	background-size: cover;
+}
+.homeBanner { 
+	background-color:#f9f9f9;
 }
 a, a:hover, a:focus{
 	text-decoration: none;
@@ -88,45 +71,6 @@ a:focus {
 }
 .btn-eight:hover 
 { color:#aaa; }
-.ease{
-	-webkit-transition: all .4s ease-in-out;
-	   -moz-transition: all .4s ease-in-out;
-		 -o-transition: all .4s ease-in-out;
-			transition: all .4s ease-in-out;
-}
-.ease:hover{
-	-webkit-transition: all .4s ease-in-out;
-	   -moz-transition: all .4s ease-in-out;
-		 -o-transition: all .4s ease-in-out;
-			transition: all .4s ease-in-out;
-}
-/*p{ color: #777;
-	font-weight:400;
-	font-size: 14px;
-	line-height:21px;
- }
-.white-bg {
-    background-color:#fff;
-}
-.separator-section{
-	padding: 100px 0;
-}
-.add-top-quarter{
-	margin-top: 30px;
-}
-.no-gutter{
-	margin-left: -15px !important;
-}
-.no-pad{
-	padding: 0 !important;
-}
-.valign{
-	position: relative;
-  	top: 50%;
-  	-webkit-transform: translateY(-50%);
-  	-ms-transform: translateY(-50%);
-  	transform: translateY(-50%);
-}*/
 /*showcase*/
 .showcase-single-content{
 	padding-top: 0px;
@@ -142,26 +86,9 @@ a:focus {
 	width: 100%;
 }		
 .shadow {
-    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
-}
-/**********frame*****
-.frame5 {
-    font-size: 16px;
-    padding: 0px;
-    background-color: #fff;
-    border: 9px ridge #777;
-    border-color: #bfbfbf;
-    position: relative;
-    transition: 0.5s;
-    display: block;
-    height: auto;
-}*/
-
-/* X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap*/
-
+ 	box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
+ }  
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { }
 
