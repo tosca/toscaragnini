@@ -5,11 +5,11 @@
     "version": "0.2.0",
     "configurations": [ 
         {
-            "type": "pwa-chrome",
+            "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
             "url": "http://toscaragnini.com",
-            "file": "c:\\Root\\Projects\\prairie-path\\index.html"
+            "file": "c:\\Root\\Projects\\tosca2023\\index.html"
         }
     ]
 }
