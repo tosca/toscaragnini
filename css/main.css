@@ -9,13 +9,12 @@ html, body {
     padding:0;
 }                                                        
 body{ 
+	font-family: 'Raleway', sans-serif;
 	font-size: 1rem;
-    font-family: 'Raleway', sans-serif;
+	font-weight: 300px;
 	color: rgb(78, 77, 77);  
 }
-.h1, h1 {
-	font-weight: 200;
-}
+
 .pt-50 {
 	padding-top: 50px;
 }
@@ -94,7 +93,9 @@ a:focus {
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) { }
 
-
+h1, h3 {
+	font-weight: 300 important;
+}
 
 
 
