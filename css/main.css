@@ -1,30 +1,13 @@
- * { 
-box-sizing: border-box;
- }
-html, body { 
-    width: auto!important;
-	overflow-x: hidden!important;
-    height: 100%;
-    margin: 0;
-    padding:0;
-}                                                        
-body{ 
-	font-family: 'Raleway', sans-serif;
-	font-size: 1rem;
-	font-weight: 300px;
-	color: rgb(78, 77, 77);  
+
+body { 
+	font-family: 'Open Sans', sans serif;
+	overflow-x:hidden;
+	background-color: #dee242; 
 }
-.font-wt {
-	font-weight: 200px!important;
+.background {
+	background-color: #d1d470;
 }
-.pt-50 {
-	padding-top: 50px;
-}
-.ptb-30 {
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-.p-lr {
+/*.p-lr {
 	padding: 30px 60px;
 }
 .p-lr-auto {
@@ -41,14 +24,23 @@ img {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-}
+}*/
 .about-me img{ 
 	padding: 10px;
 	width: 100%;
 }
-.homeBanner { 
-	background-color:#f9f9f9;
+/*.color-block-5 {
+    height: 200px;
+    width: 200px;
 }
+.back-color {
+	background-image: var(--bs-gradient);
+	background-image: linear-gradient (to top, #30cfd0 0,#330867 100%);
+}
+.bg-success {
+	--bs-bg-opacity: .5;
+	background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  }*/
 a, a:hover, a:focus{
 	text-decoration: none;
 }
@@ -58,12 +50,12 @@ a {
 a:focus { 
     outline: none; 
 }
-.btn-eight {
+/*.btn-eight {
     border: 2px solid #aaa;
     width: 100%;
 }
 .btn-eight:hover 
-{ color:#aaa; }
+{ color:#aaa; }*/
 /*showcase*/
 .showcase-single-content{
 	margin-top: 20px; 
@@ -80,20 +72,20 @@ a:focus {
     -webkit-box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
  	box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
  }  
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { }
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { }*/
 
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { }
+/* Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { }*/
 
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { }
+/* Large devices (desktops, 992px and up)
+@media (min-width: 992px) { }*/
 
-/* X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { }
+/* X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { }*/
 
-/* XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) { }
+/* XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { }*/
 
 
 
