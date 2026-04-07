@@ -4,13 +4,14 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [ 
-       
+        
+ 
         {
-            "type": "chrome",
+            "type":"pwa-msedge",
             "request": "launch",
-            "name": "Open index.html",
-            "url": "http://toscaragnini.com",
-            "file": "c:\\Root\\Projects\\tosca2023\\index.html"
+            "name": "Open index.html in Microsoft Edge",
+            "file": "${workspaceFolder}/index.html",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
